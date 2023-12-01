@@ -1,10 +1,11 @@
 import React from 'react';
 import "./Header.scss";
+import logo from "./Logonetflix.png";
 
 const Header = () => {
   return (
     <nav className="Header">
-        Header
+        <img src={logo} alt='netflix'/>
     </nav>
   )
 }
